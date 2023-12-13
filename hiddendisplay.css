@@ -1,0 +1,47 @@
+/* Basic styling for the container */
+.cool-design {
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  /* Styling for the image inside the container */
+  .cool-design img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Styling for the overlay with text */
+  .cool-design .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.5); /* Blue background with transparency */
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Style for the text inside the overlay */
+  .cool-design .overlay p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  /* Hover effect to reveal the overlay */
+  .cool-design:hover .overlay {
+    opacity: 1;
+  }
+  
+  .cool-design:hover img {
+    transform: scale(1.1); /* Optionally, add a zoom effect on hover */
+  }
+  
