@@ -1,0 +1,24 @@
+@use 'variables';
+
+main{
+    .outer-circle{
+        // background-color: variables.$white;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // background-image: conic-gradient(0deg cyan, 90deg white);
+        background-image: conic-gradient(cyan 45deg, white);
+        .inner-circle{
+            background-color: variables.$lightergray;
+            width: 9rem;
+            height: 9rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
