@@ -1,21 +1,22 @@
-let out = document.querySelector('.inner-circle');
-
-window.addEventListener('load', ()=>{
-    inner.foreach(item=>{
-        let count = document.querySelector('.count');
-        let InitialValue = 0;
-        let finalValue = count.innerText;
+window.addEventListener("load", ()=>{
+    //getElementsByClassName fetches an object of elements with class provided
+    let outDivs = document.getElementsByClassName('outer-circle');
+    let counts = document.getElementsByClassName("count");
+    // a loop to move the object
+    for(let i = 0; i < outDivs.length; i++){
+        let iniVal = 0;
         let speed = 30;
-
-        let timer = setInterval(()=>{
-            InitialValue += 1;
-            out.computedStyleMap.background = `conic-gradient(#16a6b6 ${InitialValue/100 *360}deg, #fff 0deg)`;
-            count.innerHTML = InitialValue;
-            if(InitialValue >= finaleValue){
-                clearInterval(timer);
-              }
-        }, speed);
+        let finalVal = counts[i].textContent;
+        // i dont even know about setInterval just use it, no think am.
+        let timer =    setInterval(()=>{
+                iniVal += 1;
+                // conic gradient ... read more from w3schools or mdn
+                outDivs[i].style.background = `conic-gradient(#16a6b6 ${iniVal/100 * 360}deg, #fff 0deg)`;
+                counts[i].innerText = iniVal;
+                if(iniVal >= finalVal){
+                    clearInterval(timer);
+                }
+            }, speed)
         
-        // alert();
-    })
+    }
 })

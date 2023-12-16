@@ -3,6 +3,7 @@
 main{
     .outer-circle{
         // background-color: variables.$white;
+        outline: 1px solid variables.$lightergray;
         width: 10rem;
         height: 10rem;
         border-radius: 50%;
