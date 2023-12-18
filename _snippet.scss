@@ -1,0 +1,29 @@
+@use 'variables';
+
+.snippet{
+    // display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .container{
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        .sob{    
+            outline: 1px solid variables.$cyan;
+            // text-align: center;
+            width: 40%;
+            padding: 2rem;
+            background-color: variables.$snipBlk;
+            h3{
+                font-size: 2rem;
+                color: variables.$white;
+            }
+            .snip{
+                color: variables.$babyBlue;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

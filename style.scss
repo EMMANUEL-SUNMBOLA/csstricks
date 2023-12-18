@@ -2,6 +2,11 @@
 @use 'hidden';
 @use 'circle';
 @use 'variables';
+@use 'snippet';
+
+*{
+    outline: 1px solid red;
+}
 
 main{
     h1{
