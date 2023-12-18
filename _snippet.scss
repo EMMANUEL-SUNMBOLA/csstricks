@@ -10,10 +10,14 @@
         display: flex;
         // align-items: center;
         justify-content: center;
+        h3{
+            text-align: center;
+        }
         .sob{    
             outline: 1px solid variables.$cyan;
             // text-align: center;
-            width: 40%;
+            width: 500px;
+            overflow-x: auto;
             padding: 2rem;
             background-color: variables.$snipBlk;
             h3{
@@ -23,6 +27,7 @@
             .snip{
                 color: variables.$babyBlue;
                 font-size: 1.5rem;
+                text-align: none;
             }
         }
     }
