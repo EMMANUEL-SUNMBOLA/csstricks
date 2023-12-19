@@ -2,7 +2,6 @@
 
 main{
     .outer-circle{
-        // background-color: variables.$white;
         outline: 1px solid variables.$lightergray;
         width: 10rem;
         height: 10rem;
@@ -10,7 +9,6 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
-        // background-image: conic-gradient(0deg cyan, 90deg white);
         .inner-circle{
             background-color: variables.$lightergray;
             width: 9rem;

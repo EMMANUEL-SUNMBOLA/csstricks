@@ -26,15 +26,67 @@ main{
         }
         &:hover::before{
             color: #bb0000;
-            transform: translate(-12px, 12px);
+            transform: translate(-14px, -12px);
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: black;
         }
         &:hover::after{
             color: #77efff;
-            transform: translate(-24px, 24px);
+            transform: translate(-12px, -24px);
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: black;
+        }
+    }
+}
+
+@media screen and (max-width:767px){
+    nav{
+        gap: 0;
+        .right{
+            display: none;
+            .caveman{
+                display: none;
+            }
+        }
+        .ham{
+            display: block;
+            // display: flex;
+            // flex-direction: row;
+            // align-items: center;
+            // justify-content: center;
+            .hamBtn{
+                i{
+                    color: red;
+                }
+            }
+            .ham-menu{
+                // float: right;
+                position: absolute;
+                right: 0;
+                height: 70%;
+                background-color: variables.$blue;
+                width: 20rem;
+                ul{
+                    list-style: none;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: variables.$white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    main{
+        .snippet{
+            .container{
+                .sob{
+                    width: 500px;
+                    overflow: auto;
+                }
+            }
         }
     }
 }

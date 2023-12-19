@@ -16,6 +16,9 @@ nav{
             font-family: monospace;
         }
     }
+    .ham{
+        display: none;
+    }
     .right{
         display: flex;
         gap: 2rem;

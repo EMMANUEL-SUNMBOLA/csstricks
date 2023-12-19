@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    // overflow-y: auto;
     .container{
         display: flex;
         // align-items: center;
@@ -14,9 +15,9 @@
             text-align: center;
         }
         .sob{
+            overflow: auto;
             border-radius: 5px;
-            width: 500px;
-            overflow-x: auto;
+            width: max-content;
             padding: 2rem;
             background-color: variables.$snipBlk;
             h3{
