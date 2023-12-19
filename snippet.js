@@ -38,7 +38,7 @@ document.querySelector(".scss").innerText = `
         \b\bpadding: 2rem;
         \b\bbackground-color: gray;
         \b\bz-index: 3;
-        \b\bclip-path: polygon(51% 0, 100% 26%, 100% 76%, 57% 100%, 0 76%, 0 26%);
+        \b\bclip-path: polygon(51% 0, 100% 26%, 100% \b\b76%, 57% 100%, 0 76%, 0 26%);
         \b\boutline: 1px solid gray;
         \b\b\bimg{
             \b\b\b\bwidth: 9rem;
@@ -52,7 +52,7 @@ document.querySelector(".scss").innerText = `
             \b\b\b\bdisplay: flex;
             \b\b\b\balign-items: center;
             \b\b\b\bjustify-content: center;   
-            \b\b\b\bbackground-color:  rgba(22, 166, 180, 0.9);
+            \b\b\b\bbackground-color:  rgba(22, 166, 180, \b\b\b\b0.9);
             \b\b\b\btransition: all .3s ease-in-out;
             \b\b\b\bp{
                 \b\b\b\b\bfont-size: 2rem;
@@ -62,4 +62,4 @@ document.querySelector(".scss").innerText = `
             \b\b\b\b}
         \b\b\b }
         \b\b}
-}`;
+        \b}`; 

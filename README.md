@@ -10,3 +10,5 @@
 <p>you need to know a little Javascript, css conic gradient, how piecharts work</p>
 <p>The inner circle sits ontop of the outer circle, then the outer circle</p>
 <p>background will change when we convert the percentage given to an angle that is then used for the <a href="https://www.w3schools.com/css/css3_gradients_conic.asp">Conic-Gradient</a></p>
+
+<h3>If you have any trick to share or a better way to do any trick pls pull request</h3>

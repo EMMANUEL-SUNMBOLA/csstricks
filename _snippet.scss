@@ -13,9 +13,8 @@
         h3{
             text-align: center;
         }
-        .sob{    
-            outline: 1px solid variables.$cyan;
-            // text-align: center;
+        .sob{
+            border-radius: 5px;
             width: 500px;
             overflow-x: auto;
             padding: 2rem;
