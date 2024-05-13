@@ -5,8 +5,9 @@ nav.innerHTML = `    <nav>
 </div>
 <div class="right">
     <div class="linkx">
-        <div class="link"><a href="index.html">TRICKK 1</a></div>
-        <div class="link"><a href="circle.html">TRICKK 2</a></div>
+        <div class="link"><a href="#">TRICKK 1</a></div>
+        <div class="link"><a href="#progress">TRICKK 2</a></div>
+        <div class="link"><a href="#flipper">TRICKK 3</a></div>
     </div>
     <div class="caveman">
         <img src="images/sasuke.jpg" alt="" width="40">

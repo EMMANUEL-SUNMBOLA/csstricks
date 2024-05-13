@@ -9,7 +9,9 @@
 *{
     padding: 0;
     margin: 0;
-    outline: 1px solid red;
+    // outline: 1px solid red;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 main{
@@ -46,8 +48,8 @@ main{
     nav{
         gap: 0;
         .right{
-            display: none;
-            .caveman{
+            width: 20%;
+            .linkx{
                 display: none;
             }
         }
