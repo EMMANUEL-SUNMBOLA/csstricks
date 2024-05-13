@@ -1,0 +1,36 @@
+@use 'variables';
+
+// main{
+    .coolh{
+        text-align: center;
+        text-transform: uppercase;
+        color: transparent;
+        font-size: 2rem;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: variables.$white;
+        position: relative;
+        // &::before, &::after{
+        //     content: attr(data-text);
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     transition: variables.$trans;
+        // }
+        // &:hover::before{
+        //     color: #bb0000;
+        //     transform: translate(-14px, -12px);
+        //     -webkit-text-stroke-width: 1px;
+        //     -webkit-text-stroke-color: black;
+        // }
+        // &:hover::after{
+        //     color: #77efff;
+        //     transform: translate(-12px, -24px);
+        //     -webkit-text-stroke-width: 1px;
+        //     -webkit-text-stroke-color: black;
+        // }
+    }
+// }
+
+main{
+    height: 100vh;
+}
