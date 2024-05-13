@@ -1,14 +1,25 @@
-<h1>#CSS TRICKS</h1>
-<p>This is a collection of effects, designs, or anything cool i tried to recreate so far</p>
-<h2>TRICKK #1</h2>
-<p>A hidden div with a text that will be displayed when hovered</p>
-<p>It is done by playing with its opacity and adding a background color solemhow transparent</p>
-<p>check the <a href="_hidden.scss">scss</a> and <a href="hiddendisplay.html">html</a> for further understanding</p>
-<hr>
-<h2>TRICKK #2</h2>
-<p>A circular progress bar that loads on refresh of the website</p>
-<p>you need to know a little Javascript, css conic gradient, how piecharts work</p>
-<p>The inner circle sits ontop of the outer circle, then the outer circle</p>
-<p>background will change when we convert the percentage given to an angle that is then used for the <a href="https://www.w3schools.com/css/css3_gradients_conic.asp">Conic-Gradient</a></p>
+# CSS TRICKS
 
-<h3>If you have any trick to share or a better way to do any trick pls pull request</h3>
+## AIM
+- This is a collection of effects, designs, or anything cool I found
+* If you have any trick to share or a better way to do any trick feel free to `pull-request`
+
+## Estimated Time
+- Nan
+### TRICKK #1
+- An hidden `text`
+- A hidden `div` with a text that will be displayed when `hovered`
+- It is done by playing with its `opacity` and adding a `background-color` somehow `transparent`
+- check the [scss](_hidden.scss) and [html](hiddendisplay.html) for further understanding
+
+### TRICKK #2
+- A circular `progress-bar` 
+- you need to know a little `Javascript`, `css` `conic gradient`, how piecharts work
+- The `inner circle` sits ontop of the outer circle, then the `outer circle`'s background will change when we convert the percentage given to an angle that is then used for the [Conic-Gradient](https://www.w3schools.com/css/css3_gradients_conic.asp)
+
+### TRICKK #3
+- A `flip-card`
+- When the card is `hovered` it flips between its faces
+- for more infor check [w3schhols](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+
+
