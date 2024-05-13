@@ -2,6 +2,9 @@
 
 .progress-bar{
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
     .container{
         display: flex;
         align-items: center;

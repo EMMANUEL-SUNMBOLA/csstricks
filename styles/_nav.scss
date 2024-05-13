@@ -1,15 +1,16 @@
 @use 'variables';
 nav{
     width: 100%;
-    height: 5rem;
+    height: 4rem;
     background-color: variables.$blue;
     color: variables.$white;
     display: flex;
     align-items: center;
-    gap: 60%;
+    gap: 30%;
+    padding: 10px;
     // margin: auto;
     .left{
-        padding-left: 1.5rem;
+        width: 20%;
         .brand{
             color: variables.$clay;
             font-size: 1.5rem;
@@ -20,15 +21,21 @@ nav{
         display: none;
     }
     .right{
+        width: 80%;
         display: flex;
         gap: 2rem;
         align-items: center;
         justify-content: center;
-        div{
-            a{
-                text-decoration: none;
-                color: variables.$white;
-                font-size: 1rem;
+        .linkx{
+            display: flex;
+            gap: 2rem;
+            // width: 90%;
+            .link{
+                a{
+                    text-decoration: none;
+                    color: variables.$white;
+                    font-size: 1rem;
+                }
             }
         }
         .caveman{
@@ -68,3 +75,4 @@ nav{
         }
     }
 }
+
