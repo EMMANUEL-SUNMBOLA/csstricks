@@ -67,6 +67,17 @@
                     text-transform: uppercase;
                     color: variables.$white;
                 }
+                .contact{
+                    a{
+                        text-decoration: none;
+                        font-size: 1.5rem;
+                        color: variables.$white;
+                        font-family: monospace;
+                        &:hover{
+                            color: variables.$cyan;
+                        }
+                    }
+                }
                 .tech{
                     span{
                         color: variables.$white;
