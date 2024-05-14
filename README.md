@@ -10,7 +10,7 @@
 - An hidden `text`
 - A hidden `div` with a text that will be displayed when `hovered`
 - It is done by playing with its `opacity` and adding a `background-color` somehow `transparent`
-- check the [scss](_hidden.scss) and [html](hiddendisplay.html) for further understanding
+- check the [scss](https://github.dev/EMMANUEL-SUNMBOLA/csstricks/_hidden.scss) and [html](https://github.dev/EMMANUEL-SUNMBOLA/csstricks/hiddendisplay.html) for further understanding
 
 ### TRICKK #2
 - A circular `progress-bar` 
