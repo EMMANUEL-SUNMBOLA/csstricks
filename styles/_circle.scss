@@ -5,10 +5,12 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 15%;
+    gap: 1rem;
+    width: 100%;
     .container{
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         justify-content: center;
         gap: 10%;
         .outer-circle{
