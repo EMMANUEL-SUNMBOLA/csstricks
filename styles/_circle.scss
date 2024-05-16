@@ -1,11 +1,11 @@
 @use 'variables';
 
 .progress-bar{
-    height: 60vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 3rem;
     width: 100%;
     .container{
         display: flex;
